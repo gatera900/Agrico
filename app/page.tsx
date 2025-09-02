@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer"
 import { Features } from "@/components/features"
 import { Testimonials } from "@/components/testimonials"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -31,9 +32,11 @@ export default function Home() {
                   <Button className="bg-[#6ee7b7] hover:bg-[#34d399] text-[#004d33] font-medium">
                     Start Predicting Today <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <Button variant="outline" className="border-[#6ee7b7] text-[#6ee7b7] hover:bg-[#6ee7b7]/10">
-                    Watch Demo
-                  </Button>
+                  <Link href="/projects" className="inline-flex">
+                    <Button variant="outline" className="border-[#6ee7b7] text-[#6ee7b7] hover:bg-[#6ee7b7]/10 w-full">
+                      Browse Projects
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center justify-center">

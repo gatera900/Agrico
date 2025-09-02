@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="inline-flex items-center gap-2">
               <div className="relative h-8 w-8">
-                <Image src="/images/logo.png" alt="Agrico logo" fill className="object-contain" />
+                <Image src="/placeholder-logo.png" alt="Agrico logo" fill className="object-contain" />
               </div>
               <span className="text-2xl font-bold text-[#6ee7b7]">Agrico</span>
             </Link>
